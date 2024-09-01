@@ -86,6 +86,7 @@ class AdminController extends Controller
 
     public function investments()
     {
+        //hh
         $investments = Investment::all();
         return view('admin.investments', compact('investments'));
     }
